@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#rr{
+    text-align: center;
+}
+.bg{
+    border: 5px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 110vh;
+}
+.table1{
+    background-color: red;
+    width: 22vw;
+    height: 38vh;
+    font-size: 20px;
+    border-color:black;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.table2{
+    background-color: green;
+    width: 24vw;
+    height: 45vh;
+    font-size: 20px;
+    border-color:black;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.table3{
+    background-color: blue;
+    width: 24vw;
+    height: 42vh;
+    font-size: 20px;
+    border-color:black;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.table5{
+    background-color: blue;
+    width: 22vw;
+    height: 42vh;
+    font-size: 20px;
+    border-color:black;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.table4{
+    background-color: red;
+    width: 25vw;
+    height: 43vh;
+    font-size: 20px;
+    border-color:black;
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.out1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#r{
+    padding: 4px;
+    float: left;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 7px;
+}
+#a{
+    padding: 4px;
+    float: right;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 7px;
+}
+.head{
+    background-color: green;
+    height: 18vh;
+    border-radius: 10px;
+    border: 5px solid black;
+    line-height: 18vh;
+}
+span{
+    font-family: "Matura MT Script Capitals";
+    width: 50%;
+    float: left;
+    font-size: 80px;
+    padding-left: 20px;
+}
+.aa{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding:3px auto;
+    float: right;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.aa a:hover{
+    background-color: white;
+    padding: 4px;
+    color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+p{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 57%;
+    background-color: black;
+    color: white;
+}

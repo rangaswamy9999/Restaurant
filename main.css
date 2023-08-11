@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.tog {
+    margin:2px auto;
+    width: 100%;
+    height: 15vh;
+    background-color:green;
+    border-radius: 10px;
+ 
+}
+.ol li{
+    float: right;
+    width: 200px;
+    line-height: 15vh;
+    text-align: center;
+}
+.ol{
+    padding-right: 0px;
+
+}
+.ol li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding:3px auto;
+}
+.ol li a:hover{
+    background-color: white;
+    padding: 4px;
+    color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.bg{
+    padding: 50px 50px 50px 50px;
+    background-image: url(mainbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 5rem;
+    color:white;
+    font-family: Courier, monospace;
+}
+.rr{
+    background-color:black;
+    text-decoration: none;
+}
+.bor{
+    margin:10px 10px 10px 10px;
+    border: 5px solid gold;
+    border-radius: 4px;
+    height: 110vh;
+    width: 98%;
+}
+.out1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px;
+}
+.out2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px;
+}
+.in {
+    border: 5px outset black;
+    border-radius: 12px;
+    width: 20vw;
+    height: 40vh;
+}
+.img{
+    background-image: url(nonveg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 40vh;
+}
+.in a{
+    color: black;
+    font-size: 45px;
+}
+.in a:hover{
+    background-color: black;
+    color:white;
+    padding: 4px;
+    border-radius: 10px;
+}
+.lin{
+    background-color:black;
+    width: 100%;
+    height: 4px;
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #2f57a7;
+    text-align: center;
+    padding-top: 20px;
+  }
